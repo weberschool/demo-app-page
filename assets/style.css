@@ -111,7 +111,6 @@ input.form-control:-moz-placeholder { /* Firefox 18- */
 }
 
 .container {
-    width: 100%;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
@@ -375,6 +374,10 @@ ul.footer-menu {
 @media (min-width: 768px) {
     .container {
         max-width: 720px;
+    }
+    #navigation {
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     .menu {
         display: block;
