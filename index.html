@@ -11,11 +11,19 @@
 <body>
 
     <div class="navigation-wrapper">
-        <nav id="navigation">
+        <nav id="navigation" class="container">
             <div class="nav-header">
                 <a class="nav-brand" href="#">WeberLabs</a>
             </div>
             <div class="nav-menu-wrapper">
+                <menu class="menu" type="toolbar">
+                    <ul class="menu-list">
+                        <li class="menu-item"><a href="#">Vantagens</a></li>
+                        <li class="menu-item"><a href="#">Casos de Sucesso</a></li>
+                        <li class="menu-item"><a href="#">Nosso Time</a></li>
+                        <li class="menu-item"><a href="#">Newsletter</a></li>
+                    </ul>
+                </menu>
                 <i class="fa fa-bars menu-icon" aria-hidden="true"></i>
             </div>
         </nav>
@@ -23,23 +31,25 @@
 
     <div class="header-wrapper">
         <header id="header" class="container">
-            <div class="title">
-                <h1 class="title-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
-                <p class="title-lead">enean ex enim, vulputate et suscipit ultricies, facilisis at est. Donec mi turpis, sollicitudin ut efficitur non, volutpat a lorem. Mauris fringilla finibus eros ac vehicula.</p>
-            </div>
-
-            <div class="app-links">
-                <div class="app-link">
-                    <a class="btn" href="#">
-                        <i class="fa fa-apple" aria-hidden="true"></i>
-                        <span>App Store</span>
-                    </a>
+            <div class="header-text">
+                <div class="title">
+                    <h1 class="title-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                    <p class="title-lead">enean ex enim, vulputate et suscipit ultricies, facilisis at est. Donec mi turpis, sollicitudin ut efficitur non, volutpat a lorem. Mauris fringilla finibus eros ac vehicula.</p>
                 </div>
-                <div class="app-link">
-                    <a class="btn" href="#">
-                        <i class="fa fa-android" aria-hidden="true"></i>
-                        <span>Google Play</span>
-                    </a>
+    
+                <div class="app-links">
+                    <div class="app-link">
+                        <a class="btn" href="#">
+                            <i class="fa fa-apple" aria-hidden="true"></i>
+                            <span>App Store</span>
+                        </a>
+                    </div>
+                    <div class="app-link">
+                        <a class="btn" href="#">
+                            <i class="fa fa-android" aria-hidden="true"></i>
+                            <span>Google Play</span>
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -50,67 +60,73 @@
     </div>
 
     <main id="main">
-        <section id="advantages" class="section section-gray container">
-            <div class="section-title">
-                <h2>Vantagens</h2>
-                <p class="title-lead">Proin maximus mi a nulla venenatis efficitur.</p>
-            </div>
-
-            <div class="advantages-items container">
-                <ul>
-                    <li class="advantages-item">
-                        <div class="advantages-icon">
-                            <i class="fa fa-usd" aria-hidden="true"></i>
-                        </div>
-                        <div class="advantages-detail">
-                            <h4>Economia</h4>
-                            <p>Maecenas pretium diam id erat tincidunt molestie. Sed at libero eu orci interdum cursus eget eget nisi.</p>
-                        </div>
-                    </li>
-                    <li class="advantages-item">
-                        <div class="advantages-icon">
-                            <i class="fa fa-clock-o" aria-hidden="true"></i>
-                        </div>
-                        <div class="advantages-detail">
-                            <h4>Velocidade</h4>
-                            <p>Maecenas pretium diam id erat tincidunt molestie. Sed at libero eu orci interdum cursus eget eget nisi.</p>
-                        </div>
-                    </li>
-                    <li class="advantages-item">
-                        <div class="advantages-icon">
-                            <i class="fa fa-pie-chart" aria-hidden="true"></i>
-                        </div>
-                        <div class="advantages-detail">
-                            <h4>Produtividade</h4>
-                            <p>Maecenas pretium diam id erat tincidunt molestie. Sed at libero eu orci interdum cursus eget eget nisi.</p>
-                        </div>
-                    </li>
-                    <li class="advantages-item">
-                        <div class="advantages-icon">
-                            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-                        </div>
-                        <div class="advantages-detail">
-                            <h4>Satisfação</h4>
-                            <p>Maecenas pretium diam id erat tincidunt molestie. Sed at libero eu orci interdum cursus eget eget nisi.</p>
-                        </div>
-                    </li>
-                </ul>
+        <section id="advantages" class="section section-gray">
+            <div class="advantages-wrapper container">
+                <div class="section-title">
+                    <h2>Vantagens</h2>
+                    <p class="title-lead">Proin maximus mi a nulla venenatis efficitur.</p>
+                </div>
+    
+                <div class="advantages-items container">
+                    <ul class="advantages-list">
+                        <li class="advantages-item">
+                            <div class="advantages-icon">
+                                <i class="fa fa-usd" aria-hidden="true"></i>
+                            </div>
+                            <div class="advantages-detail">
+                                <h4>Economia</h4>
+                                <p>Maecenas pretium diam id erat tincidunt molestie. Sed at libero eu orci interdum cursus eget eget nisi.</p>
+                            </div>
+                        </li>
+                        <li class="advantages-item">
+                            <div class="advantages-icon">
+                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                            </div>
+                            <div class="advantages-detail">
+                                <h4>Velocidade</h4>
+                                <p>Maecenas pretium diam id erat tincidunt molestie. Sed at libero eu orci interdum cursus eget eget nisi.</p>
+                            </div>
+                        </li>
+                        <li class="advantages-item">
+                            <div class="advantages-icon">
+                                <i class="fa fa-pie-chart" aria-hidden="true"></i>
+                            </div>
+                            <div class="advantages-detail">
+                                <h4>Produtividade</h4>
+                                <p>Maecenas pretium diam id erat tincidunt molestie. Sed at libero eu orci interdum cursus eget eget nisi.</p>
+                            </div>
+                        </li>
+                        <li class="advantages-item">
+                            <div class="advantages-icon">
+                                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                            </div>
+                            <div class="advantages-detail">
+                                <h4>Satisfação</h4>
+                                <p>Maecenas pretium diam id erat tincidunt molestie. Sed at libero eu orci interdum cursus eget eget nisi.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
         <section id="case" class="section">
-            <div class="section-title container">
-                <h2>Casos de Sucesso</h2>
-                <p class="title-lead">Proin maximus mi a nulla venenatis efficitur.</p>
-            </div>
-
-            <div class="case-image-wrapper">
-                <div class="case-image" style="background-image: url('http://via.placeholder.com/1024x680')"></div>
-            </div>
-
-            <div class="case-info container">
-                <p class="case-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eleifend sed nisi id congue. Aenean ex enim, vulputate et suscipit ultricies, facilisis at est. Donec mi turpis, sollicitudin ut efficitur non, volutpat a lorem. Mauris fringilla finibus eros ac vehicula. Aliquam non sodales justo. Quisque ac tellus risus.</p>
-                <p class="case-author">John Doe</p>
-                <p class="case-company">CEO - Company X</p>
+            <div class="case-wrapper container">
+                <div class="section-title">
+                    <h2>Casos de Sucesso</h2>
+                    <p class="title-lead">Proin maximus mi a nulla venenatis efficitur.</p>
+                </div>
+    
+                <div class="case-box">
+                    <div class="case-image-wrapper">
+                        <div class="case-image" style="background-image: url('http://via.placeholder.com/1024x680')"></div>
+                    </div>
+        
+                    <div class="case-info">
+                        <p class="case-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eleifend sed nisi id congue. Aenean ex enim, vulputate et suscipit ultricies, facilisis at est. Donec mi turpis, sollicitudin ut efficitur non, volutpat a lorem. Mauris fringilla finibus eros ac vehicula. Aliquam non sodales justo. Quisque ac tellus risus.</p>
+                        <p class="case-author">John Doe</p>
+                        <p class="case-company">CEO - Company X</p>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="team" class="section container">
@@ -196,30 +212,32 @@
                 </ul>
             </div>
         </section>
-        <section id="newsletter" class="section section-primary container">
-            <div class="section-title">
-                <h2>Newsletter</h2>
-            </div>
-
-            <div class="newsletter-wrapper">
-                <div class="newsletter-label">
-                    <p>Inscreva-se em nossa newsletter e seja informado sobre as novidades</p>
+        <section id="newsletter" class="section section-primary">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Newsletter</h2>
                 </div>
-                <div class="newsletter-form form-group">
-                    <input class="form-control" type="email" placeholder="Seu e-mail">
-                    <input class="btn" type="submit" value="Inscrever-se">
+    
+                <div class="newsletter-wrapper">
+                    <div class="newsletter-label">
+                        <p>Inscreva-se em nossa newsletter e seja informado sobre as novidades</p>
+                    </div>
+                    <div class="newsletter-form form-group">
+                        <input class="newsletter-email form-control" type="email" placeholder="Seu e-mail">
+                        <input class="newsletter-btn btn" type="submit" value="Inscrever-se">
+                    </div>
                 </div>
             </div>
         </section>
         <section id="contact"></section>
     </main>
 
-    <footer id="footer" class="section section-dark-gray container">
-        <div class="copyright">
+    <footer id="footer" class="section section-dark-gray">
+        <div class="copyright container">
             <p>AppX - 2017 All Rights Reserved</p>
         </div>
 
-        <nav class="footer-nav">
+        <nav class="footer-nav container">
             <ul class="footer-menu">
                 <li class="footer-menu-item"><a href="#advantages">Vantagens</a></li>
                 <li class="footer-menu-item"><a href="#case">Casos de Sucesso</a></li>
