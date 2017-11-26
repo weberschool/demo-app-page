@@ -517,18 +517,18 @@ ul.footer-menu {
 
 @keyframes slidein-right {
     from {
-        margin-right: -5%;
+        transform: translateX(30%);
     }
     to {
-        margin-right: 0%;
+        transform: translateX(0);
     }
 }
 
 @keyframes slidein-left {
     from {
-        margin-left: -5%;
+        transform: translateX(-30%);
     }
     to {
-        margin-left: 0%;
+        transform: translateX(0);
     }
 }
