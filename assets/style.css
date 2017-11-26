@@ -373,6 +373,7 @@ ul.footer-menu {
 
 .footer-menu {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 15px;
 }
