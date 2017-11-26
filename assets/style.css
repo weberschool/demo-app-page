@@ -427,8 +427,17 @@ ul.footer-menu {
     .header-text {
         text-align: left;
     }
+    .header-text .title,
+    .header-text .app-links {
+        animation-name: slidein-left;
+        animation-duration: 1s;
+    }
     .app-image {
         text-align: right;
+    }
+    .app-image img {
+        animation-name: slidein-right;
+        animation-duration: 1s;
     }
     .app-links {
         justify-content: left;
@@ -472,5 +481,23 @@ ul.footer-menu {
     }
     .case-image-wrapper, .case-info {
         height: 100%;
+    }
+}
+
+@keyframes slidein-right {
+    from {
+        margin-right: -5%;
+    }
+    to {
+        margin-right: 0%;
+    }
+}
+
+@keyframes slidein-left {
+    from {
+        margin-left: -5%;
+    }
+    to {
+        margin-left: 0%;
     }
 }
