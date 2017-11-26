@@ -36,18 +36,40 @@ ul.menu-list {
     list-style: none;
 }
 
-.menu-list {
+#navigation .menu-list {
     display: flex;
 }
 
-.menu-list .menu-item {
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 0 10px; 
-    font-size: 1rem;
+#navigation-mobile {
+    max-height: 0px;
+    overflow: hidden;
+    background-color: #333333;
+    transition: all 0.5s ease;
+}
+#navigation-mobile .menu-list {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.menu-list .menu-item a {
+#navigation-mobile .menu-list .menu-item {
+    opacity: 0.8;
+    font-size: 0.8rem;
+    padding: 10px 0;
+}
+
+#navigation .menu-list .menu-item {
+    font-size: 1rem;
+    padding: 0 10px; 
+}
+
+#navigation .menu-list .menu-item,
+#navigation-mobile .menu-list .menu-item {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#navigation .menu-list .menu-item a,
+#navigation-mobile .menu-list .menu-item a {
     color: #ffffff;
     text-decoration: none;
 }
@@ -165,6 +187,11 @@ input.form-control:-moz-placeholder { /* Firefox 18- */
 
 .app-image {
     margin-top: 48px;
+}
+
+.app-image img {
+    width: 100%;
+    /* max-width: 338px; */
 }
 
 .section {
@@ -374,6 +401,9 @@ ul.footer-menu {
     #navigation {
         padding-top: 30px;
         padding-bottom: 30px;
+    }
+    #navigation-mobile {
+        display: none;
     }
     .menu {
         display: block;
