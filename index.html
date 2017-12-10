@@ -258,5 +258,19 @@
     </footer>
 
     <script src="assets/index.js"></script>
+
+    <script>
+
+        var body = document.querySelector('body');
+        
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 0) {
+                body.classList.add('navigation-fixed');
+            } else {
+                body.classList.remove('navigation-fixed');
+            }
+        });
+
+    </script>
 </body>
 </html>
